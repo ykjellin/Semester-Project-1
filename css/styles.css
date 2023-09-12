@@ -15,11 +15,17 @@ header {
     max-height: 100px;
 }
 
-.infocard-container {
+main {
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
+/*.infocard-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}*/
 
 .inforcard {
     padding: 1em 3em;
