@@ -22,5 +22,7 @@ header {
 }
 
 .inforcard {
+    padding: 0 1em;
+    border-style: solid;
     max-width: 50%;
 }
