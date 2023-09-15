@@ -129,8 +129,11 @@ main {
 display: flex;
 justify-content: center;
 align-items: center;
+text-align: center;
 min-height: 40rem;
 z-index: -2;
+overflow: hidden;
+max-width: 390px;
 }
 
 .infocard.container {
@@ -158,6 +161,18 @@ z-index: -2;
     
 }
 
+/*.index-image-container {
+    padding: 1em 1em;
+    max-width: 20em;
+    max-height: 60em;
+    z-index: -1;
+}*/
+
+.index-image-1 {
+display: block;
+width: 10%;
+}
+
 .eventcard.container {
     display: flex;
     flex-direction: column;
@@ -179,12 +194,37 @@ z-index: -2;
     padding: 2em 2em;
 }
 
-.visitcard-container {
+.involved-container {
     background-color: #3697F0;
-    margin: 4em 2em 2em 2em;
+    margin: 55px 0;
 }
 
-.visitcard {
-    
-    margin: 2em 2em;
+.involved-card {
+    max-width: 390px;
+    margin: 50px 0;
+}
+
+.involved-img {
+    object-fit: scale-down;
+    max-width: 390px;
+}
+
+#involved-img-1 {
+max-width: 80%;
+}
+
+.involved-text {
+    margin: 3em;
+    background-color: #8ac2f6;
+    border-radius: 3px;
+}
+
+.involved-text h2 {
+    margin: 0.5em;
+}
+
+.involved-text p {
+    font-weight: 400;
+    font-size: large;
+    margin: 1em;
 }
