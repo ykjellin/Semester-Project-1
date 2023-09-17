@@ -354,6 +354,9 @@ margin: 3em 6em;
     .exhibitioncard {
         max-width: 100%;
     }
+    .infocard-container h1 {
+        font-size: xx-large;
+    }
 }
 
 @media (min-width:1180px) {
@@ -386,7 +389,20 @@ footer {
         display: flex;
         flex-direction: row;
         justify-content: space-around;
+        z-index: 4;
+    }
+    header ul {
+        display: flex;
+        justify-content: center;
         align-items: center;
+        text-decoration: none;
+    }
+    header li {
+        margin: 2em;
+        color: #3697F0;
+        list-style: none;
+        pointer-events: all;
+
     }
     .nav {
         display: flex;
@@ -395,5 +411,27 @@ footer {
     
     .hamburger-menu, .sidebar {
         display: none;
+    }
+
+    footer {
+        max-width: 100%;
+    }
+    .eventcard-container {
+    }
+    .eventcard {
+        max-width: 40%;
+        margin-left: 30%;
+    }
+    .explorecard {
+        max-width: 40%;
+        margin-left: 30%;
+    }
+    .involved-card {
+        max-width: 40%;
+
+    }
+    .exhibitioncard {
+        max-width: 40%;
+        margin-left: 30%;
     }
 }
